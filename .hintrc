@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-height: fit-content"
+        ]
+      }
+    ],
+    "axe/forms": "off",
+    "no-inline-styles": "off"
+  }
+}
